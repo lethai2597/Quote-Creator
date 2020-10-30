@@ -1,0 +1,47 @@
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: #eee;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #333;
+    border-radius: 10px;
+}
+
+.dancing-script{
+    font-family: 'Dancing Script', cursive;
+}
+.grandstander{
+
+    font-family: 'Grandstander', cursive;
+}
+
+.grenze-gotisch{
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.trispace{
+    font-family: 'Trispace', sans-serif;
+}
+
+
+  .slider {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    width: 10rem;
+    height: 0.25rem;
+    outline: none;
+    border-radius: 0.25rem;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+            appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #f44336;
+    border: 0.25rem solid #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
