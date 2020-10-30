@@ -58,7 +58,7 @@ function App() {
             </div>
           ))}
         </Box>
-        <Box title="Background">
+        <Box title="Background" isShowDefault>
           <div className="my-4 flex items-center">
             <label className="font-bold w-40 text-sm">Url</label>
             <input onChange={(e) => {addBackgroundUrl(e)}} placeholder="http://" className="px-4 py-2 border w-full rounded" />
@@ -84,7 +84,7 @@ function App() {
             </div>
           </div>
         </Box>
-        <Box title="Font">
+        <Box title="Font" isShowDefault>
           <div className="my-4">
             <h3 className="font-bold w-40 text-sm">Color</h3>
             <div className="pt-4 w-full">
@@ -130,7 +130,7 @@ function App() {
             </div>
           </div>
         </Box>
-        <Box title="Layout" isShowDefault>
+        <Box title="Layout">
           <div className="my-4">
             <h3 className="font-bold w-40 text-sm">Default</h3>
             <div className="pt-4 w-full">
